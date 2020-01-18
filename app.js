@@ -14,7 +14,7 @@ window.onload=function () {
                 boximg.className="box_img";
                 ccontent.appendChild(boximg);
                 var img=document.createElement("img");
-                img.src="../images/"+imgdata.data[i].src;
+                img.src=imgdata.data[i].src;
                 boximg.appendChild(img);
             }
             imgLocation("container","box");
